@@ -1,0 +1,44 @@
+(1) what is html ? ✅
+(2) types of list , difference between ordered and unordered list ✅
+(3) table th , tb tr , td ✅
+(4) input , image , a ✅
+(5) semantic tags ✅
+(6) core web vitals ✅
+(7) html entities ✅
+(8) media tags controls , autoplay  , loop , muted preloading  , none  , auto , metadata ✅
+(9) inline block and inline block elements ✅
+(10) id and classes ✅
+
+
+css topics : 
+(1) css selectors 
+(2) box elements
+(3) font , colors
+(4) specificity 
+(5) css sizing units
+(6) display flex , grid
+(7) overflow and postion properties
+(8) object fit and position
+
+js topics : 
+(1) var , let , const ✅
+(2) data types ✅
+(3) primitive and non primitive data types ✅
+(4) types of loops ✅
+(5) template litrals and string interpolation ✅
+(6) objects , string , array 
+(7) function
+(9) regular function , arrow function , higher order functions , callback functions
+(10) javascript execution engine
+(11) hoisting
+(12) javascript aysnc execution
+(13) this keyword , new keyword
+(14) factory function , constructor function
+(15) stack vs heap memeory
+(16) lexical scoping , closures
+(17) prototype , prototype chain , prototype inheritance
+(18) operators
+(19) callbacks , promise , aysnc await
+(20) error handling
+(21) call stack
+(22) DOM manuplation
