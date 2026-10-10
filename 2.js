@@ -219,23 +219,121 @@ const obj3 = {
 // func2();
 
 
-const obj = {
-    name : "Sarah",
-    greet : ()=> {
-        console.log(this.name);
-    }
-}
+// const obj = {
+//     name : "Sarah",
+//     greet : ()=> {
+//         console.log(this.name);
+//     }
+// }
 
-function Hello() {
-const age = 23;
-const sayHello = () => {
-    console.log(this.age);
-}
-sayHello();
-}
+// function Hello() {
+// const age = 23;
+// const sayHello = () => {
+//     console.log(this.age);
+// }
+// sayHello();
+// }
 
-Hello();
+// Hello();
 // obj.greet();
 
 
+// Dough - base -  bake
+function makeDough(cb) {
+setTimeout(function() {
+    let dough = "dough";
+    cb(dough)
+} , 2000);
+}
 
+// callbacks 
+
+// function makeBase(dough , cb) {
+//     setTimeout(function() {
+//         let base = `${dough} + base`;
+//         cb(base);
+//     } , 2000);
+// }
+
+// function bakePizza(base , cb) {
+//     setTimeout(function() {
+//         let pizza = `${base} ---> heat`;
+//         cb(pizza);
+//     } , 2000);
+// }
+
+
+// makeDough(function(dough) {
+//     makeBase(dough , function(base) {
+//         bakePizza(base , function(pizza) {
+//             console.log(pizza);
+//         })
+//     }
+// )
+// })
+
+
+// Promises 
+
+  function makeDough(raw) {
+      let doughPromise = new Promise(function (resolve, reject) {
+        if (raw) {
+          setTimeout(function () {
+            let dough = "dough";
+            resolve(dough);
+          }, 2000);
+        } else {
+          reject("No raw material provided");
+        }
+      });
+      return doughPromise;
+    }
+
+    function makeBase(dough) {
+      let basePromise = new Promise(function (resolve, reject) {
+        if (dough) {
+          setTimeout(function () {
+            let base = dough + "->" + "heat";
+            resolve(base);
+          }, 2000);
+        } else {
+          reject("No dough  provided");
+        }
+      });
+      return basePromise;
+    }
+
+    function addTopings(base) {
+      let topingsPromise = new Promise(function (resolve, reject) {
+        if (base) {
+          setTimeout(function () {
+            let rawPizza = base + "->" + "Veggies";
+            resolve(rawPizza);
+          }, 2000);
+        } else {
+          reject("No base  provided");
+        }
+      });
+      return topingsPromise;
+    }
+
+    // makeDough("raw").then((res) => {
+    //    return makeBase(res);
+    // }).then((res) => {
+    //     return addTopings(res);
+    // }).then((res) => {
+    //     console.log(res);
+    // })
+
+
+    // async / await
+    // async function makePizza(raw) {
+    //  const dough = await makeDough(raw);
+    //  const base = await makeBase(dough);
+    //  const pizza = await addTopings(base);
+    //  console.log(pizza);
+    // }
+
+    // makePizza("Maida");
+
+    

@@ -29,8 +29,8 @@ Javascript :
 2) Different ways to declare a variable ?✅
 3) Difference between var , let and const ?✅
 4) primitive and non-primitve data types ? ✅
-5) Difference between stack memory and heap memory ?
-6) what is call stack ?
+5) Difference between stack memory and heap memory ? ✅
+6) what is call stack ? ✅
 7) Array : what , syntax + functions - ✅
 8) Object : what , syntax , functions - ✅
 9) String : what , syntax , functions - ✅
@@ -42,12 +42,12 @@ Javascript :
 15) Turnory Operator ? ✅
 16) Loops , for , for of , for in , while ✅
 17) DOM Manuplation
-18) Javascript Code Execution 
-19) Javascript Engine
-20) What is asynchronous Javascript ?
-21) what are callback functions ?
-22) what are promises ?
-23) What is aysnc and await ?
+18) Javascript Code Execution ✅
+19) Javascript Engine ✅
+20) What is asynchronous Javascript ? ✅
+21) what are callback functions ? ✅
+22) what are promises ? ✅
+23) What is aysnc and await ? ✅
 24) What are call , apply , bind ? with their internal implementation.
 25) What are constructor functions ?
 26) What are factory functions ?
@@ -63,7 +63,7 @@ Javascript :
 36) Type corecean ? - ✅
 37) What is function ? ✅
 37 Why functions are treates as object in Javascript ? ✅
-38) Temporal Dead Zone ?
+38) Temporal Dead Zone ? ✅
 39) What is Hoisting ? ✅
 40) what is currying And when we use currying ?
 41) Debounce And Throttling ?
@@ -71,10 +71,10 @@ Javascript :
 43) Difference Between Arrow functions and Regular functions ? ✅
 44) What IIFE ? ✅
 45) Global Scope Vs Local Scope ?
-46) what is callback starvation ?
+46) what is callback starvation ? ✅
 47) What is Event ?
 48) What are event bubling and event capturing ?
-49) Fetch 
+49) Fetch ✅
 50) What is Event Object ?
 51) fasy values in Javascript ? - ✅
 52) Rest and Spread Operators , destructuring ? ✅
