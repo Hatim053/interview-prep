@@ -336,4 +336,87 @@ setTimeout(function() {
 
     // makePizza("Maida");
 
-    
+// const ulEle = document.getElementById("l");
+// ulEle.classList.add("blue");
+
+// factory function : 
+
+// function produce(name , age) {
+  
+// return {
+//   name : name,
+//   age : age,
+//   greetUser : function() {
+//    console.log(this.name);
+//   }
+// }
+// }
+
+// const obj = produce("Hatim" , 23);
+// obj.greetUser();
+
+
+// function constFunc(name , age) {
+//   this.name = name;
+//   this.age = age;
+// }
+
+// constFunc.prototype.greet = function() {
+//   console.log(`Good Morning ${this.name} Sir`);
+// }
+
+// const obj6 = new constFunc("Khizar" , 23);
+// console.log(obj6);
+// obj6.greet();
+
+
+// currying : 
+
+// function add(a,b,c) {
+//   return a+b+c;
+// }
+
+// function sum(a) {
+//   return function(b) {
+//     return function(c) {
+//       return a+b+c;
+//     }
+//   }
+// }
+
+// function req(baseurl) {
+//   return function(reqRoute) {
+//     return function(limit) {
+//       fetch();
+//     }
+//   }
+// }
+
+
+
+// const fetchPsts = req("localhost:5000/");
+// const fetchLikes = req("localhost:5000/");
+// const likesLimit = fetchLikes("/user/post/like");
+// likesLimit(15);
+
+
+// const add100 = sum(100);
+// const add200 = sum(200);
+
+// add100(3);
+// add200(4);
+
+
+// function Calc() {
+//   let initailAmount = 0;
+//   return function add(amount) {
+//     initailAmount += amount;
+//     console.log(initailAmount);
+//   }
+// }
+
+
+// const addFunc = Calc();
+
+// addFunc(100);
+// addFunc(250);

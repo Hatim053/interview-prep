@@ -41,41 +41,43 @@ Javascript :
 14) Optional chaning ? ✅ : if we try to access a property or method out of something which is already null or undefined then an error will thrown but with the help of optional that expression will evaulated to undefined.
 15) Turnory Operator ? ✅
 16) Loops , for , for of , for in , while ✅
-17) DOM Manuplation
+17) DOM Manuplation ✅
 18) Javascript Code Execution ✅
 19) Javascript Engine ✅
 20) What is asynchronous Javascript ? ✅
 21) what are callback functions ? ✅
 22) what are promises ? ✅
 23) What is aysnc and await ? ✅
-24) What are call , apply , bind ? with their internal implementation.
-25) What are constructor functions ?
-26) What are factory functions ?
-27) For Each , map , filter , reduce ? , with their internal implementation.
-28) lexical Scope ?
-29) Closure ?
-30) Impure functions Vs Pure functions ?
+24) What are call , apply , bind ? ✅.
+25) What are constructor functions ? ✅
+26) What are factory functions ? ✅
+27) For Each , map , filter , reduce ? ✅
+28) lexical Scope ? ✅
+29) Closure ? ✅
+30) Impure functions Vs Pure functions ? ✅
 31) what is Prototype ?
 32) what is prototypical Inheritance ?
 33) What is prototypical Chaining ?
-34) What is Event Loop ?
-35) what is this and new keywords ?
+34) What is Event Loop ? ✅
+35) what is this and new keywords ? ✅
 36) Type corecean ? - ✅
 37) What is function ? ✅
 37 Why functions are treates as object in Javascript ? ✅
 38) Temporal Dead Zone ? ✅
 39) What is Hoisting ? ✅
-40) what is currying And when we use currying ?
+40) what is currying And when we use currying ? ✅
 41) Debounce And Throttling ?
 42) Deep VS Shallow Copy ? ✅
 43) Difference Between Arrow functions and Regular functions ? ✅
 44) What IIFE ? ✅
-45) Global Scope Vs Local Scope ?
+45) Global Scope Vs Local Scope ? ✅
 46) what is callback starvation ? ✅
-47) What is Event ?
-48) What are event bubling and event capturing ?
+47) What is Event ? ✅
+48) What are event bubling and event capturing ? ✅
 49) Fetch ✅
-50) What is Event Object ?
+50) What is Event Object ? ✅
 51) fasy values in Javascript ? - ✅
 52) Rest and Spread Operators , destructuring ? ✅
+53) function scoping ✅
+54) Static keyword 
 
