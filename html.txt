@@ -55,9 +55,9 @@ Javascript :
 28) lexical Scope ? ✅
 29) Closure ? ✅
 30) Impure functions Vs Pure functions ? ✅
-31) what is Prototype ?
-32) what is prototypical Inheritance ?
-33) What is prototypical Chaining ?
+31) what is Prototype ? ✅
+32) what is prototypical Inheritance ? ✅
+33) What is prototypical Chaining ? ✅
 34) What is Event Loop ? ✅
 35) what is this and new keywords ? ✅
 36) Type corecean ? - ✅
@@ -79,5 +79,5 @@ Javascript :
 51) fasy values in Javascript ? - ✅
 52) Rest and Spread Operators , destructuring ? ✅
 53) function scoping ✅
-54) Static keyword 
+54) Static keyword ✅
 
